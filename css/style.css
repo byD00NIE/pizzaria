@@ -1,0 +1,234 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+
+
+.header {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    height: 74px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.logo {
+    width: 80px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.logo:hover {
+    width: 80px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    rotate: 180deg;
+    transition: 500ms;
+    transform: rotate(180deg);
+}
+
+
+.menu {
+    display: flex;
+
+}
+
+.menu >li {
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+
+.menu >li >a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 1px black;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.menu >li>a:hover {
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 1px black;
+    font-weight: bold;
+    margin-right: 10px;
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+    background-color: rgba(0, 0, 0, 0.068);
+}
+
+
+.header >img {
+    height: 70px;
+}
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.pizza {
+    background-image: url(/pizzaria/img/img/pizza.jpg);
+    height: 500px;
+    display: flex;
+    box-shadow: 2px 2px green;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: top center;
+    flex-direction: column;
+}
+
+
+
+
+
+.pizza >h1,
+.pizza >a {
+    position: absolute;
+    text-align: center;
+}
+
+.pizza >h1 {
+    color: white;
+    text-shadow: 4px 6px 6px black;
+    font-size: 70px;
+}
+
+.pizza >a {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin: 20px;
+    margin-top: 320px;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.pizza >a:hover {
+    background-color: rgba(128, 113, 113, 0.459);
+    padding: 20px;
+    margin: 20px;
+    transform: scale(1.1);
+    margin-top: 320px;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    transition-duration: 0.5s;
+}
+
+/* Estilizando elementos do corpo da página */
+
+main {
+    max-width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+}
+
+h2 {
+    color: rgb(6, 195, 6);
+}
+
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid;
+}
+
+.sabores {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 15px;
+}
+
+.sabor {
+    margin: 10px;
+    background-color: green;
+    border-radius: 15px;
+}
+
+.nome {
+    color: white;
+    font-weight: bold;
+}
+
+.preco {
+    margin: 10px;
+    background-color: yellow;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.sabores2 {
+    display: flex;
+    justify-content: center;
+    overflow-x: scroll;
+    padding-left: 220px;
+    border-radius: 10px;
+}
+
+.sabores2::-webkit-scrollbar {
+    display: none;
+}
+
+.sabor2 {
+    background-color: green;
+    justify-content: right;
+    margin: 5px;
+    border-radius: 15px 15px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 10px;
+    align-items: center;
+    box-shadow: 10px 10px 10px 8px green;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-right >ul> li>a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    margin: 2px;
+}
+
+
+li {
+    list-style: none;
+    margin: 4px;
+}
+
+
+.footer-left >ul >li {
+    margin: 2px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
